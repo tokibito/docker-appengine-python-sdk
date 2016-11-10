@@ -1,0 +1,1 @@
+docker run -i -t -v $APPENGINE_HOME:/app -p 8000:8000 -p 8080:8080 appengine:latest dev_appserver.py --admin_host=0.0.0.0 --host=0.0.0.0 $@

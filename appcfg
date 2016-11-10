@@ -1,0 +1,1 @@
+docker run -i -t -v $APPENGINE_HOME:/app appengine:latest appcfg.py $@
